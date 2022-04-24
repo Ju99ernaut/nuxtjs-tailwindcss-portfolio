@@ -19,7 +19,7 @@ export default {
   updated() {
     feather.replace();
   },
-  components: { ProjectRelatedProjects },
+  //components: { ProjectRelatedProjects },
 };
 </script>
 
