@@ -38,11 +38,9 @@ export default {
         Contact Form
       </p>
       <form
-        @submit="
-          (e) => {
-            e.preventDefault;
-          }
-        "
+        name="contact"
+        method="POST"
+        data-netlify="true"
         class="font-general-regular space-y-7"
       >
         <div class="">

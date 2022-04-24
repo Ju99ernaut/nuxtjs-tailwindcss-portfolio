@@ -5,7 +5,7 @@ export default {
   data: () => {
     return {
       projectName: "Nuxt.js & TailwindCSS Portfolio",
-      author: "Stoman",
+      author: "Brendon",
     };
   },
   computed: {
@@ -37,7 +37,7 @@ export default {
       >
       . Developed by
       <a
-        href="https://stoman.me"
+        href="https://github.com/Ju99ernaut"
         target="__blank"
         class="
           font-general-medium
