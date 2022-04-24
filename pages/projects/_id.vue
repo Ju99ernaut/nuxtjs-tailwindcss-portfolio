@@ -1,6 +1,6 @@
 <script>
 import feather from "feather-icons";
-import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue";
+//import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue";
 export default {
   scrollToTop: true,
   data: () => {
@@ -250,7 +250,7 @@ export default {
       </div>
 
       <!-- Project related projects -->
-      <ProjectRelatedProjects />
+      <!-- <ProjectRelatedProjects /> -->
     </div>
 
     <!-- Load not found components if no project found -->

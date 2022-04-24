@@ -2,13 +2,12 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="60px" height="40px" viewBox="0 0 60 40" enable-background="new 0 0 60 40" xml:space="preserve">
+	 width="90px" height="40px" viewBox="-15 0 90 40" enable-background="new -15 0 90 40" xml:space="preserve">
 <g>
-	<path fill="#F1F2F2" d="M21.224,25.254c0,1.65-1.35,3-3,3h-14c-1.65,0-3-1.35-3-3v-14c0-1.65,1.35-3,3-3h14c1.65,0,3,1.35,3,3
-		V25.254z"/>
+	<path fill="#F1F2F2" d="M8.954,27c0,1.65-1.35,3-3,3h-14c-1.65,0-3-1.35-3-3V13c0-1.65,1.35-3,3-3h14c1.65,0,3,1.35,3,3V27z"/>
 </g>
-<rect x="4.366" y="10.592" fill="none" width="13.715" height="15.324"/>
-<text transform="matrix(1 0 0 1 4.3662 25.791)" fill="#7F3F98" font-family="'Verdana'" font-size="20">B</text>
-<rect x="21.2" y="14.142" fill="none" width="39.8" height="8.226"/>
-<text transform="matrix(1 0 0 1 21.2002 20.9814)" fill="#6D6E71" font-family="'Verdana'" font-size="9">Brendon</text>
+<rect x="-7.904" y="12.338" fill="none" width="13.715" height="15.324"/>
+<text transform="matrix(1 0 0 1 -7.9038 27.6035)" fill="#7F3F98" font-family="'Verdana'" font-size="20">B</text>
+<rect x="8.93" y="15.887" fill="none" width="39.8" height="8.226"/>
+<text transform="matrix(1 0 0 1 9.9302 25.5439)" fill="#FFFFFF" font-family="'Verdana'" font-size="15">Brendon</text>
 </svg>
