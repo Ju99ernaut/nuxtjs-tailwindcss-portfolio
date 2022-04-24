@@ -39,10 +39,12 @@ export default {
       </p>
       <form
         name="contact"
-        method="POST"
+        method="post"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         class="font-general-regular space-y-7"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div class="">
           <label
             class="block text-lg text-primary-dark dark:text-primary-light mb-2"

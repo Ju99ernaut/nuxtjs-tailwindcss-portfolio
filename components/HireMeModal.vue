@@ -77,10 +77,12 @@ export default {
               <div class="modal-body p-5 w-full h-full">
                 <form
                   name="hire"
-                  method="POST"
+                  method="post"
                   data-netlify="true"
+                  data-netlify-honeypot="bot-field"
                   class="max-w-xl m-4 text-left"
                 >
+                  <input type="hidden" name="form-name" value="hire" />
                   <div class="mt-0">
                     <input
                       class="
