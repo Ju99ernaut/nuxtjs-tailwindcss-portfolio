@@ -8,17 +8,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "Harare, Zimbabwe",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "brendon@blocomposer.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "N/A",
           icon: "phone",
         },
       ],
