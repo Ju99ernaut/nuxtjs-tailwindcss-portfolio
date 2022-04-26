@@ -6,11 +6,11 @@ export const state = () => ({
   projects: [
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
-      title: "Google Health Platform",
+      title: "Blocomposer Website Builder",
       category: "Web Application",
-      img: "images/web-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      img: "/images/intro.png",
+      publishDate: "Jul 17, 2021",
+      tag: "Fullstack / Nextjs",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -21,25 +21,25 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/ui-project-1.jpg",
+          title: "Blocomposer Website Builder",
+          img: "/images/intro.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-1.jpg",
+          title: "Blocomposer Website Builder",
+          img: "/images/bm.png",
         },
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
-          img: "../images/web-project-2.jpg",
+          title: "Blocomposer Website Builder",
+          img: "/images/export.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Blocomposer",
         },
         {
           id: uuidv4(),
@@ -49,21 +49,22 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://blocomposer.com",
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Email",
+          details: "hello@blocomposer.com",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "TypeScript",
+        "Nextjs",
+        "Cypress",
+        "Prisma",
+        "MySQL"
       ],
       projectDetails: [
         {
@@ -122,10 +123,10 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
-      title: "Phoenix Digital Agency",
-      category: "Mobile Application",
-      img: "images/mobile-project-2.jpg",
-      publishDate: "Nov 04, 2021",
+      title: "GFonts",
+      category: "Web Application",
+      img: "/images/dark.png",
+      publishDate: "Feb 16, 2021",
       tag: "UI / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
@@ -137,25 +138,20 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-1.jpg",
+          title: "GFonts",
+          img: "/images/dark.png",
         },
         {
           id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-2.jpg",
+          title: "GFonts",
+          img: "/images/light.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Blocomposer",
         },
         {
           id: uuidv4(),
@@ -165,21 +161,20 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://gfonts.blocomposer.com",
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Email",
+          details: "hello@blocomposer.com",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "React",
+        "Google Fonts"
       ],
       projectDetails: [
         {
@@ -238,11 +233,11 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
-      title: "Project Management UI",
-      category: "UI/UX Design",
-      img: "images/ui-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      title: "App Listing",
+      category: "Web application",
+      img: "/images/app-listing.png",
+      publishDate: "Mar 21, 2021",
+      tag: "Fullstack / Nextjs",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -253,49 +248,35 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Project Management UI",
-          img: "../images/mobile-project-2.jpg",
+          title: "App Listing",
+          img: "/images/app-listing.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Rally DAO",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Blockchain",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://app-listing.netlify.app",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Nextjs",
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
       ],
       projectDetails: [
         {
@@ -354,10 +335,10 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Cloud Storage Platform",
-      category: "UI/UX Design",
-      img: "images/ui-project-2.jpg",
-      publishDate: "Nov 04, 2021",
+      title: "Vector Editor",
+      category: "Web Application",
+      img: "/images/vector-editor.png",
+      publishDate: "Oct 23, 2021",
       tag: "Web / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
@@ -369,49 +350,28 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Cloud Storage Platform",
-          img: "../images/mobile-project-2.jpg",
+          title: "Vector Editor",
+          img: "/images/vector-editor.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "SVG design & Editing",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://Ju99ernaut.github.io/vector-editor",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Fabricjs",
+        "Material Design"
       ],
       projectDetails: [
         {
@@ -470,11 +430,11 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Uber Social App",
-      category: "Mobile Application",
-      img: "images/mobile-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
+      title: "Mailer",
+      category: "Web Application",
+      img: "/images/mailer.png",
+      publishDate: "May 15, 2021",
+      tag: "Fullstack / FastAPI",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -485,49 +445,30 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-1.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/web-project-2.jpg",
-        },
-        {
-          id: uuidv4(),
-          title: "Uber Social App",
-          img: "../images/mobile-project-2.jpg",
+          title: "Mailer",
+          img: "/images/mailer.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
-          title: "Name",
-          details: "Company Ltd",
-        },
-        {
-          id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Email Design & Campaign Management",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
-        },
-        {
-          id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          details: "https://github.com/Ju99ernaut/mailer",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Python",
+        "FastAPI",
+        "Pytest",
+        "PostgreSQL"
       ],
       projectDetails: [
         {
@@ -586,11 +527,11 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
+      title: "Rally Discordbot Dashboard",
       category: "Web Application",
-      img: "images/web-project-1.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
+      img: "/images/rally-discord.png",
+      publishDate: "Nov 30, 2020",
+      tag: "UI / Frontend",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -601,25 +542,286 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-1.jpg",
+          title: "Rally Discordbot Dashboard",
+          img: "/images/rally-discord.png",
         },
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-2.jpg",
+          title: "Rally Discordbot Dashboard",
+          img: "/images/rally-discord2.png",
         },
         {
           id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/mobile-project-2.jpg",
+          title: "Rally Discordbot Dashboard",
+          img: "/images/rally-discord3.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://github.com/Ju99ernaut/rally-discordbot-dashboard",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vuejs",
+        "TailwindCSS",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+      ],
+    },
+    {
+      id: "a89fab77-61f3-4e36-b401-a565d01a11bd",
+      title: "Cubic Bezier",
+      category: "Node Library",
+      img: "/images/web-project-1.jpg",
+      publishDate: "Aug 03, 2020",
+      tag: "UI / Frontend",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Cubic Bezier",
+          img: "/images/cubic-bezier.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://github.com/Ju99ernaut/cubic-bezier",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vuejs",
+        "Node",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+      ],
+    },
+    {
+      id: "0e178ea1-cef5-4e30-bd03-436773f2d010",
+      title: "Storefront",
+      category: "Web Application",
+      img: "/images/storefront.png",
+      publishDate: "May 03, 2021",
+      tag: "UI / Frontend",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Storefront",
+          img: "/images/storefront.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://storefront-liard.vercel.app",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Nextjs",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+      ],
+    },
+    {
+      id: "7a3643b3-4c73-40aa-8b5f-dce9eb1175ea",
+      title: "Blocomposer Sites",
+      category: "Web Application",
+      img: "/images/site.png",
+      publishDate: "Apr, 2022",
+      tag: "UI / Frontend",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Blocomposer Sites",
+          img: "/images/site.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Blocomposer Sites",
+          img: "/images/site2.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Blocomposer Sites",
+          img: "/images/site3.png",
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Blocomposer",
         },
         {
           id: uuidv4(),
@@ -629,21 +831,123 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://blocomposer.com",
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Demo 1",
+          details: "https://moonlit-arithmetic-ede101.netlify.app",
+        },
+        {
+          id: uuidv4(),
+          title: "Demo 2",
+          details: "https://happy-albattani-44518e.netlify.app",
+        },
+        {
+          id: uuidv4(),
+          title: "Demo 3",
+          details: "https://inspiring-meitner-8952f7.netlify.app",
         },
       ],
       technologies: [
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Blocomposer",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+      ],
+    },
+    {
+      id: "d4896594-454e-4b3e-a773-46bc498bd350",
+      title: "Grapesjs Plugins",
+      category: "Grapesjs",
+      img: "/images/uppy.png",
+      publishDate: "Jul 16, 2020",
+      tag: "Grapesjs / Plugins",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Grapesjs Plugins",
+          img: "/images/uppy.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Grapesjs Plugins",
+          img: "/images/netlify.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Grapesjs Plugins",
+          img: "/images/svg.png",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://github.com/Ju99ernaut?tab=repositories&q=grapesjs&type=&language=&sort=",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Webpack",
+        "Grapesjs"
       ],
       projectDetails: [
         {
@@ -697,46 +1001,46 @@ export const state = () => ({
   ],
   clientsHeading: "Some of the brands I worked with",
   clients: [
-    {
-      id: uuidv4(),
-      title: "Amazon",
-      img: "../brands/amazon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Sony",
-      img: "../brands/sony_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "Adidas",
-      img: "../brands/adidas_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "FILA",
-      img: "../brands/fila_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "NB",
-      img: "../brands/nb_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "SAMSUNG",
-      img: "../brands/samsung_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "CANON",
-      img: "../brands/canon_gray.png",
-    },
-    {
-      id: uuidv4(),
-      title: "PUMA",
-      img: "../brands/puma_gray.png",
-    },
+    //{
+    //  id: uuidv4(),
+    //  title: "Amazon",
+    //  img: "../brands/amazon_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "Sony",
+    //  img: "../brands/sony_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "Adidas",
+    //  img: "../brands/adidas_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "FILA",
+    //  img: "../brands/fila_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "NB",
+    //  img: "../brands/nb_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "SAMSUNG",
+    //  img: "../brands/samsung_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "CANON",
+    //  img: "../brands/canon_gray.png",
+    //},
+    //{
+    //  id: uuidv4(),
+    //  title: "PUMA",
+    //  img: "../brands/puma_gray.png",
+    //},
   ],
   aboutMe: [
     {
@@ -787,8 +1091,18 @@ export const state = () => ({
     },
     {
       id: uuidv4(),
-      value: "branding",
-      name: "Branding & Animations",
+      value: "node",
+      name: "Node Library",
+    },
+    {
+      id: uuidv4(),
+      value: "grapes",
+      name: "GrapesJS",
+    },
+    {
+      id: uuidv4(),
+      value: "other",
+      name: "Other",
     },
   ],
 });
