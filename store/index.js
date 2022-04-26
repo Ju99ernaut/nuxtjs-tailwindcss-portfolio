@@ -907,7 +907,7 @@ export const state = () => ({
     {
       id: "d4896594-454e-4b3e-a773-46bc498bd350",
       title: "Grapesjs Plugins",
-      category: "Grapesjs",
+      category: "GrapesJS",
       img: "/images/uppy.png",
       publishDate: "Jul 16, 2020",
       tag: "Grapesjs / Plugins",
