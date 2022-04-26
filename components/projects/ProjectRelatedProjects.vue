@@ -1,31 +1,34 @@
 <script>
+import { mapState } from "vuex";
+
 export default {
+  computed: {
+    ...mapState(["projects"]),
+    filteredProjects() {
+      return this.firstFour(this.filterProjectsByCategory());
+    },
+    project() {
+      return this.$store.getters.getProjectById(this.$route.params.id);
+    },
+  },
+  methods: {
+    firstFour(projects) {
+      return projects
+        .filter((item) => item.id !== this.project?.id)
+        .slice(0, 4);
+    },
+    filterProjectsByCategory() {
+      return this.projects.filter((item) => {
+        let category =
+          item.category.charAt(0).toUpperCase() + item.category.slice(1);
+        return category.includes(this.project?.category);
+      });
+    },
+  },
   data: () => {
     return {
       relatedProject: {
         relatedProjectsHeading: "Related Projects",
-        relatedProjects: [
-          {
-            id: 1,
-            title: "Mobile UI",
-            img: require("@/static/images/mobile-project-1.jpg"),
-          },
-          {
-            id: 2,
-            title: "Web Application",
-            img: require("@/static/images/web-project-1.jpg"),
-          },
-          {
-            id: 3,
-            title: "UI Design",
-            img: require("@/static/images/ui-project-2.jpg"),
-          },
-          {
-            id: 4,
-            title: "Kabul Mobile App UI",
-            img: require("@/static/images/mobile-project-2.jpg"),
-          },
-        ],
       },
     };
   },
@@ -58,13 +61,30 @@ export default {
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-4 gap-10">
-      <div v-for="item in relatedProject.relatedProjects" :key="item.id">
-        <img
-          :src="item.img"
-          class="rounded-xl cursor-pointer"
-          :alt="item.title"
-        />
+      <div v-for="item in filteredProjects" :key="item.id">
+        <NuxtLink :to="`/projects/${item.id}`">
+          <img
+            :src="item.img"
+            class="rounded-xl cursor-pointer"
+            :alt="item.title"
+          />
+        </NuxtLink>
       </div>
+    </div>
+
+    <!-- Load not found components if no project found -->
+    <div
+      v-if="!filteredProjects.length"
+      class="
+        font-general-semibold
+        text-xl text-ternary-dark
+        dark:text-ternary-light
+        font-semibold
+        container
+        text-center
+      "
+    >
+      <h1>No related projects</h1>
     </div>
   </div>
 </template>

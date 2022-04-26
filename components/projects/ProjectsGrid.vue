@@ -12,15 +12,19 @@ export default {
   computed: {
     ...mapState(["projectsHeading", "projectsDescription", "projects"]),
     filteredProjects() {
+      let projects = this.projects;
       if (this.selectedProject) {
-        return this.filterProjectsByCategory();
+        projects = this.filterProjectsByCategory();
       } else if (this.searchProject) {
-        return this.filterProjectsBySearch();
+        projects = this.filterProjectsBySearch();
       }
-      return this.projects;
+      return this.$route.path === "/" ? this.firstSix(projects) : projects;
     },
   },
   methods: {
+    firstSix(projects) {
+      return projects.slice(0, 6);
+    },
     filterProjectsByCategory() {
       return this.projects.filter((item) => {
         let category =
@@ -183,6 +187,21 @@ export default {
           </div>
         </NuxtLink>
       </div>
+    </div>
+
+    <!-- Load not found components if no project found -->
+    <div
+      v-if="!filteredProjects.length"
+      class="
+        font-general-semibold
+        text-xl text-ternary-dark
+        dark:text-ternary-light
+        font-semibold
+        container
+        text-center
+      "
+    >
+      <h1>No projects yet</h1>
     </div>
   </div>
 </template>

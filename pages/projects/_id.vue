@@ -1,6 +1,6 @@
 <script>
 import feather from "feather-icons";
-//import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue";
+import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue";
 export default {
   scrollToTop: true,
   data: () => {
@@ -19,7 +19,7 @@ export default {
   updated() {
     feather.replace();
   },
-  //components: { ProjectRelatedProjects },
+  components: { ProjectRelatedProjects },
 };
 </script>
 
@@ -250,11 +250,21 @@ export default {
       </div>
 
       <!-- Project related projects -->
-      <!-- <ProjectRelatedProjects /> -->
+      <ProjectRelatedProjects />
     </div>
 
     <!-- Load not found components if no project found -->
-    <div v-else class="font-general-medium container mx-auto text-center">
+    <div
+      v-else
+      class="
+        font-general-semibold
+        text-xl text-ternary-dark
+        dark:text-ternary-light
+        font-semibold
+        container
+        text-center
+      "
+    >
       <h1>No projects yet</h1>
     </div>
   </div>

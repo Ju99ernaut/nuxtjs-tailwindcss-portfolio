@@ -14,7 +14,7 @@ export default {
 
 <template>
   <!-- About clients section -->
-  <div class="mt-10 sm:mt-20">
+  <div v-if="clients.length" class="mt-10 sm:mt-20">
     <p
       class="
         font-general-medium
