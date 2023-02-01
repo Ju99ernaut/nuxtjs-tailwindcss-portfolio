@@ -49,12 +49,12 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://blocomposer.com",
+          details: "https://blocomposer.app",
         },
         {
           id: uuidv4(),
           title: "Email",
-          details: "hello@blocomposer.com",
+          details: "hello@blocomposer.app",
         },
       ],
       technologies: [
@@ -156,12 +156,12 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://gfonts.blocomposer.com",
+          details: "https://fonts.blocomposer.app",
         },
         {
           id: uuidv4(),
           title: "Email",
-          details: "hello@blocomposer.com",
+          details: "hello@blocomposer.app",
         },
       ],
       technologies: [
@@ -588,7 +588,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "CSS cubic-bezier curve editor based on https://cubic-bezier.com, bundled using 'parcel-bundler' for easier intergration into other web apps for example 'blocomposer'(https://https://blocomposer.com).",
+            "CSS cubic-bezier curve editor based on https://cubic-bezier.com, bundled using 'parcel-bundler' for easier intergration into other web apps for example 'blocomposer'(https://https://blocomposer.app).",
         },
       ],
       socialSharings: [
@@ -731,7 +731,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://blocomposer.com",
+          details: "https://blocomposer.app",
         },
         {
           id: uuidv4(),
@@ -759,7 +759,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Wesites built completely using 'blocomposer'(https://blocomposer.com) as apart of its ever growing template collection.",
+            "Wesites built completely using 'blocomposer'(https://blocomposer.app) as apart of its ever growing template collection.",
         },
       ],
       socialSharings: [

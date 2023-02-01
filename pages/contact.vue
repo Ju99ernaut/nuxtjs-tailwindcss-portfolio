@@ -13,7 +13,7 @@ export default {
         },
         {
           id: 2,
-          name: "brendon@blocomposer.com",
+          name: "brendon@blocomposer.app",
           icon: "mail",
         },
         {
