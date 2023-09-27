@@ -413,7 +413,12 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://github.com/Ju99ernaut/mailer",
+          details: "https://mailer.blocomposer.app",
+        },
+        {
+          id: uuidv4(),
+          title: "Email",
+          details: "hello@blocomposer.app",
         },
       ],
       technologies: [
